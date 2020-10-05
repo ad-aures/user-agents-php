@@ -50,6 +50,6 @@ if($player){
 	print player['os']."\n";
 	print player['bot']."\n";
 } else {
-	print "This user-agent was not found\n";
+	print "This user-agent was not found.\n";
 }
 ```
