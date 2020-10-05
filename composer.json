@@ -12,7 +12,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Podlibre\\UserAgentPhp\\": "src/"
+      "Podlibre\\UserAgentsPhp\\": "src/"
     }
   },
   "scripts": {
