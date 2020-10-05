@@ -5,8 +5,8 @@ This is a dummy PHP implementation for [opawg / user-agents](https://github.com/
 
 ### Via composer
 
-- Add ``podlibre/user-agents-php` to your `composer.json`.
-- Add ``post-install-cmd` / `post-update-cmd` scripts to your `composer.json` so that the class is generated.
+- Add `podlibre/user-agents-php` to your `composer.json`.
+- Add `post-install-cmd` / `post-update-cmd` scripts to your `composer.json` so that the class is generated.
 
 ```
 {
@@ -50,6 +50,6 @@ if($player){
 	print player['os']."\n";
 	print player['bot']."\n";
 } else {
-	print "This user-agent was not found\n";
+	print "This user-agent was not found.\n";
 }
 ```
