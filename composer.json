@@ -16,6 +16,7 @@
     }
   },
   "scripts": {
+    "post-install-cmd":  "php src/UserAgentsGenerate.php > src/UserAgents.php",
     "post-update-cmd": "php src/UserAgentsGenerate.php > src/UserAgents.php"
   }
 }
