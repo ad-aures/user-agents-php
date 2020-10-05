@@ -1,0 +1,21 @@
+{
+  "name": "podlibre/user-agents-php",
+  "description": "PHP implementation for opawg/user-agents.",
+  "homepage": "https://github.com/podlibre/user-agents-php",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Benjamin Bellamy",
+      "email": "ben@podlibre.org",
+      "homepage": "https://podlibre.org/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Opawg\\UserAgent\\": "src/"
+    }
+  },
+  "scripts": {
+    "post-update-cmd": "Opawg\\UserAgent\\UserAgentsGenerate::generate"
+  }
+}
