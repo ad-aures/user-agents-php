@@ -16,6 +16,6 @@
     }
   },
   "scripts": {
-    "post-update-cmd": "Opawg\\UserAgent\\UserAgentsGenerate::generate"
+    "post-update-cmd": "php src/UserAgentsGenerate.php > src/UserAgents.php"
   }
 }
