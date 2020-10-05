@@ -1,5 +1,4 @@
 #!/usr/bin/php
-
 <?php
 /*
 * Load json and convert it to PHP object:
