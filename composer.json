@@ -16,7 +16,7 @@
     }
   },
   "scripts": {
-    "post-install-cmd": "Podlibre\\UserAgentsPhp\\UserAgentsGenerate::generate",
-    "post-update-cmd": "Podlibre\\UserAgentsPhp\\UserAgentsGenerate.php::generate"
+    "post-install-cmd": "@php src/UserAgentsGenerate.php >  src/UserAgents.php",
+    "post-update-cmd": "@php src/UserAgentsGenerate.php >  src/UserAgents.php"
   }
 }
